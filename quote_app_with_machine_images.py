@@ -62,7 +62,7 @@ def group_optional_options(options):
 # PDF class
 class QuotePDF(FPDF):
     def header(self):
-        self.image("mitsui_logo.png", x=10, y=8, w=45)
+        self.image("mitsui_logo.PNG", x=10, y=8, w=45)
         self.set_font('Arial', 'B', 12)
         self.cell(0, 10, 'Mitsui Seiki USA - Machine Quote', ln=True, align='C')
         self.ln(15)
